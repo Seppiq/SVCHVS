@@ -1,4 +1,12 @@
-# Kiryl Siamak
+<header style="display: flex; flex-direction: row; justify-content: flex-start; align-items: center; margin-bottom: 3em;">
+<img style="border-style: none; max-height: 9em; border-radius: 50%; margin-right: 2em;" id="photo" src="./image.jpg" alt="profile picture" />
+
+<div id="name">
+    <p style="font-size: 2.5em; padding: 0; margin: 0; letter-spacing: 3px;">Kiryl</p>
+    <p style="font-size: 2.5em; padding: 0; margin: 0;"><strong>Siamak</strong></p>
+</div>
+</header>
+
 ## Contacts Info
 
 - Cell: +375(25)760-78-79
