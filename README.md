@@ -3,3 +3,5 @@
 - Факультет: Инженерно-экономический
 - Курс: 3
 - Группа: АСОИР-201
+
+GitHub Pages: https://seppiq.github.io/SVCHVS/Lab1/cv
