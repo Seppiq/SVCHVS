@@ -5,3 +5,4 @@
 - Группа: АСОИР-201
 
 Figma: https://www.figma.com/file/5vDuDWagkukS5LDFaF21Er/Polly-(Copy)?node-id=0%3A1
+GitHub: https://seppiq.github.io/SVCHVS/
