@@ -9,6 +9,7 @@ p {
 }
 
 body {
+    overflow-x: hidden;
     background-color: white;
     margin: 0;
     padding: 0;
