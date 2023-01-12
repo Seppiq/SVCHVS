@@ -4,7 +4,7 @@ import Cards from '../cards/Cards'
 const Main = () => {
     return (
         <main>
-            <div className="wrapper">
+            <div className="wrapper_main">
                 <div className={styles.content}>
                     <Cards/>
                 </div>

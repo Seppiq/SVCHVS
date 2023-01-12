@@ -2,6 +2,10 @@
     margin: 2%;
 }
 
+.wrapper_cards{
+    display: grid;
+}
+
 .rect {
     margin: 1% 5%;
     padding: 2%;
@@ -12,7 +16,7 @@
 
 .grid_wrapp {
     display: grid;
-    grid-template-columns: 1fr 7fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     grid-column-gap: 5%;
 }

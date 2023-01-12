@@ -425,25 +425,26 @@ const CardArea = (props) => {
                             <div className={styles.count}>
                                 Количество: {props.count}
                             </div>
+                            <div className={styles.item_buttons}>
+                                <button className={styles.item_butt}
+                                        onClick={() => {
+                                            setShow(true)
+                                            setAction(UPDATE_ITEM)
+                                        }}
+                                >
+                                    Обновить
+                                </button>
+                                <button className={styles.item_butt}
+                                        onClick={() => {
+                                            setShow(true)
+                                            setAction(DELETE_ITEM)
+                                        }}
+                                >
+                                    Удалить
+                                </button>
+                            </div>
                         </div>
-                        <div className={styles.item_buttons}>
-                            <button className={styles.item_butt}
-                                onClick={() => {
-                                    setShow(true)
-                                    setAction(UPDATE_ITEM)
-                                }}
-                            >
-                                Обновить
-                            </button>
-                            <button className={styles.item_butt}
-                                onClick={() => {
-                                    setShow(true)
-                                    setAction(DELETE_ITEM)
-                                }}
-                            >
-                                Удалить
-                            </button>
-                        </div>
+
                     </div>
                 </div>
             </ClickAwayListener>
@@ -481,8 +482,16 @@ const Cards = () => {
     }, [state])
 
     return (
-        <div className="wrapper">
-            {itemsData}
+        <>
+            <div className="wrapper_cards">
+                {itemsData}
+                <ItemForm
+                    action={action}
+                    show={show}
+                    onClose={() => { setShow(false) }}
+                />
+
+            </div>
             <div className={styles.button}>
                 <button
                     onClick={() => {
@@ -494,12 +503,7 @@ const Cards = () => {
                     Добавить
                 </button>
             </div>
-            <ItemForm
-                action={action}
-                show={show}
-                onClose={() => { setShow(false) }}
-            />
-        </div>
+        </>
     )
 }
 
