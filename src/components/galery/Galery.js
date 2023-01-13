@@ -29,6 +29,7 @@ const GaleryArea = (props) => {
 }
 
 const Galery = () => {
+
     var state = JSON.parse(localStorage.getItem("items"))
     let [itemsData, setItemsData] = useState([])
     useEffect(() => {

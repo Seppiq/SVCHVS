@@ -5,7 +5,7 @@
 .rect {
     margin: 1% 5%;
     padding: 2%;
-    border: 1px solid #be7656;
+    border: 1px solid #ffb008;
     border-radius: 1em;
     box-shadow: none;
 }
@@ -44,7 +44,7 @@
     transition: all 0.3s;
     margin-bottom: 8%;
 
-    background: #efc3a4;
+    background: #ffb008;
     border: 1px solid #be7656;
     border-radius: 0.3em;
     width: 10em;
@@ -84,7 +84,7 @@
 .button > button {
     transition: all 0.3s;
 
-    background: #efc3a4;
+    background: #ffb008;
     border: 1px solid #be7656;
     border-radius: 0.5em;
     width: 15em;

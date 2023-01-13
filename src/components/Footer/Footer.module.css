@@ -1,30 +1,30 @@
-.content {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin-top: 2%;
-    background-color: #a86f5d;
+
+
+.content{
+    background-color: #ffb008;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
-    font-size: 1em;
-    padding: 2% 10%;
+    font-size: 1.5em;
+    padding: 2%;
+    margin-top: 20px;
 }
 
-@media (max-width: 320px) {
+@media (max-width:320px) {
     .content {
         font-size: 0.55em;
         padding: 5% 10%;
     }
 }
 
-.content > a {
+.content>a {
     transition: all 0.3s ease;
     text-decoration: none;
     color: #fff
 }
 
-.content > a:hover {
+.content>a:hover {
     transition: all 0.3s ease;
     text-decoration: none;
     color: bisque;

@@ -7,10 +7,7 @@ const Footer = () => {
         <header>
             <div className="wrapper">
                 <div className={styles.content}>
-                    <NavLink to='/'>Home</NavLink>
-                    <NavLink to='/aboutus'>About us</NavLink>
-                    <NavLink to='/contactus'>Contact us</NavLink>
-                    <NavLink to='/galery'>Galery</NavLink>
+                    book shop
                 </div>
             </div>
         </header>
